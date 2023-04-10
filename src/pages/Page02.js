@@ -11,9 +11,9 @@ const Page02 = () => {
                 <section>
                     <h3>예시 1</h3>
                     <li>
-                        <a>
+                        <label>
                             <div>어떻게 틀렸을까요?</div>
-                        </a>
+                        </label>
                     </li>
                     <li>
                         <em>
@@ -72,7 +72,7 @@ const Page02 = () => {
                 </section>
                 <section>
                     <h3>종합 예시</h3> 
-                    <a>
+                    <label>
                         <li style={{"list-style":"circle"}} ><b>위 예시를 종합적으로 섞어놓았습니다.</b></li>
                         <br /><br />
                         <strong>
@@ -80,7 +80,7 @@ const Page02 = () => {
                             <br /> 
                         </strong>
                         <i><h1 style={{"color":"gray"}}>틀린 곳을 찾아서 수정해보세요.</h1></i>
-                    </a>
+                    </label>
                 </section>
             </section>
         </article>)

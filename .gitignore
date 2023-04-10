@@ -4,4 +4,5 @@ node_modules/
 .DS_Store
 .eslintrc.json
 .prettierrc.json
+package-lock.json
 report.json

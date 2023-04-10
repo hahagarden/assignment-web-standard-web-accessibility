@@ -246,7 +246,11 @@ td {
   margin-left: 20px;
   display: flex;
 }
-label, span {
+.inputContainer > label {
+  padding: 5px;
+  display: block;
+}
+.inputContainer > span {
   padding: 5px;
   display: block;
 }
